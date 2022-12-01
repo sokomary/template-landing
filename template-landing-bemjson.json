@@ -1,0 +1,524 @@
+([
+    { 
+        block: 'header',
+        tag: 'header',
+        content: [
+           { 
+                block: 'round-button',
+                content: {
+                    elem: 'icon',
+                    tag: 'img',
+                    attrs: {
+                        src: 'assets/burger.svg',
+                        alt: 'меню'
+                    }
+                }
+            },
+            {
+                elem: 'logo',
+                elemMods: { 
+                    hidden: 'half'
+                },
+                content: [
+                    {
+                        elem: 'logo-text',
+                        content: [
+                            {
+                                block: 'text_size_header',
+                                mix: { block: 'text_color_primary', mix: 'text_weight_bold'},
+                                content: 'CRIOS'
+                            },
+                            {
+                                block: 'text_color_secondary',
+                                mix: { block: 'text_weight_bold'},
+                                content: 'FREE PSD TEMPLATE'
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                block: 'round-button',
+                content: {
+                    elem: 'icon',
+                    tag: 'img',
+                    attrs: {
+                        src: 'assets/search.svg',
+                        alt: 'поиск'
+                    }
+                }
+            }
+        ]
+    },
+    
+    {
+        block: 'main',
+        tag: 'main',
+        content: [
+            {
+                block: 'explore-block',
+                content: [
+                    {
+                        block: 'text_size_header',
+                        mix: { block: 'text_weight_bold' },
+                        content: 'Simple PSD template with cool stuff',
+                    },
+                    {
+                        elem: 'content',
+                        content: [
+                            {
+                                elem: 'header',
+                                content: [
+                                    {
+                                        block: 'text_color_secondary',
+                                        mix: { block: 'text_weight_bold' },
+                                        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                                    },
+                                    {
+                                        elem: 'action',
+                                        content: {
+                                            elem: 'action-text',
+                                            mix: { block: 'text_color_primary' },
+                                            tag: 'a',
+                                            attrs: {
+                                                href: '#openModal'
+                                            },
+                                            content: 'EXPLORE TEMPLATE'
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                block: '',
+                                content: [
+                                    {
+                                       block: 'text_color_secondary',
+                                       mix: { block: 'text_weight_bold' },
+                                       content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                                    },
+                                    {
+                                       block: 'text_size_header',
+                                       mix: { block: 'text_weight_bold' },
+                                       content: 'Lorem ipsum dolor sit amet'
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                block: 'options-block',
+                content: [
+                    {
+                        block: 'option',
+                        content: [
+                            {
+                                tag: 'img',
+                                attrs: { 
+                                    src: 'assets/firstoption.png',
+                                    alt: 'первая опция'
+                                }
+                            },
+                            {
+                                block: 'text_weight_bold',
+                                content: 'Lorem ipsum dolor sit amet',
+                            },
+                            {
+                                block: 'text_size_hint',
+                                mix: { block: 'text_color_secondary' },
+                                content: 'Suspendisse vel leo efficitur,  venenatis est ut, tincidunt nib',
+                            }
+                        ]
+                    },
+                    {
+                        block: 'option',
+                        content: [
+                            {
+                                tag: 'img',
+                                attrs: { 
+                                    src: 'assets/secondoption.png',
+                                    alt: 'вторая опция'
+                                }
+                            },
+                            {
+                                block: 'text_weight_bold',
+                                content: 'Lorem ipsum dolor sit amet',
+                            },
+                            {
+                                block: 'text_size_hint',
+                                mix: { block: 'text_color_secondary' },
+                                content: 'Suspendisse vel leo efficitur,  venenatis est ut, tincidunt nib',
+                            }
+                        ]
+                    },
+                    {
+                        block: 'option',
+                        content: [
+                            {
+                                tag: 'img',
+                                attrs: { 
+                                    src: 'assets/thirdoption.png',
+                                    alt: 'третья опция'
+                                }
+                            },
+                            {
+                                block: 'text_weight_bold',
+                                content: 'Lorem ipsum dolor sit amet',
+                            },
+                            {
+                                block: 'text_size_hint',
+                                mix: { block: 'text_color_secondary' },
+                                content: 'Suspendisse vel leo efficitur,  venenatis est ut, tincidunt nib',
+                            }
+                        ]
+                    },
+                    {
+                        block: 'option',
+                        content: [
+                            {
+                                tag: 'img',
+                                attrs: { 
+                                    src: 'assets/forthoption.png',
+                                    alt: 'четвертая опция'
+                                }
+                            },
+                            {
+                                block: 'text_weight_bold',
+                                content: 'Lorem ipsum dolor sit amet',
+                            },
+                            {
+                                block: 'text_size_hint',
+                                mix: { block: 'text_color_secondary' },
+                                content: 'Suspendisse vel leo efficitur,  venenatis est ut, tincidunt nib',
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                block: '',
+                content: {
+                    tag: 'button',
+                    content: 'CHECK OUR OFFER'
+                }
+            },
+            {
+                block: '',
+                content: [
+                    {
+                        block: 'box',
+                        content: [
+                            {
+                                elem: 'img',
+                                tag: 'img',
+                                attrs: { 
+                                    src: 'assets/road.png',
+                                    alt: 'дорога'
+                                }
+                            },
+                            {
+                                elem: 'text',
+                                content: [
+                                    {
+                                        block: 'text_size_header',
+                                        content: 'Lorem ipsum dolor',
+                                    },
+                                    {
+                                        elem: 'description',
+                                        mix: { block: 'text_color_secondary', mix: { block: 'text_size_regular' } },
+                                        content: [
+                                            {
+                                                block: '',
+                                                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                                            },
+                                            {
+                                                block: '',
+                                                content: 'Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibn.'
+                                            },
+                                            {
+                                                block: '',
+                                                content: 'Suspendisse lobortis lectus vel imperdient ullamcorper.'
+                                            }
+                                        ]
+                                        
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        block: 'box',
+                        content: [
+                            {
+                                elem: 'text',
+                                content: [
+                                    {
+                                        block: 'text_size_header',
+                                        content: 'Lorem ipsum dolor',
+                                    },
+                                    {
+                                        elem: 'description',
+                                        mix: { block: 'text_color_secondary', mix: { block: 'text_size_regular' } },
+                                        content: [
+                                            {
+                                                block: '',
+                                                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                                            },
+                                            {
+                                                block: '',
+                                                content: 'Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibn.'
+                                            },
+                                            {
+                                                block: '',
+                                                content: 'Suspendisse lobortis lectus vel imperdient ullamcorper.'
+                                            }
+                                        ]
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                elem: 'img',
+                                tag: 'img',
+                                attrs: { 
+                                    src: 'assets/woods.png',
+                                    alt: 'дрова'
+                                }
+                            },
+                        ]
+                    }
+                ]
+            },
+            {
+                block: 'screens',
+                content: [
+                    {
+                        block: 'screen',
+                        content: [
+                            {
+                                elem: 'first-img-container',
+                                content: {
+                                    elem: 'first-img',
+                                    tag: 'img',
+                                    attrs: {
+                                        src: 'assets/firstscreen.png',
+                                        alt: 'скриншот'
+                                    }
+                                }
+                            },
+                            {
+                                elem: 'text',
+                                content: [
+                                    {
+                                        block: 'text_size_header',
+                                        mix: { block: 'text_color_primary' },
+                                        content: 'Lorem ipsum dolor'
+                                    },
+                                    {
+                                        elem: 'descriprion',
+                                        mix: { block: 'text_size_regular', mix: { block: 'text_color_secondary'} },
+                                        content: [
+                                            {
+                                                block: '',
+                                                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                                            },
+                                            {
+                                                block: '',
+                                                content: 'Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibn.'
+                                            },
+                                            {
+                                                block: '',
+                                                content: 'Suspendisse lobortis lectus vel imperdient ullamcorper.'
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        block: 'screen',
+                        content: [
+                            {
+                                elem: 'text',
+                                elemMods: { align: 'right'},
+                                content: [
+                                    {
+                                        block: 'text_size_header',
+                                        mix: { block: 'text_color_primary' },
+                                        content: 'Lorem ipsum dolor'
+                                    },
+                                    {
+                                        elem: 'descriprion',
+                                        mix: { block: 'text_size_regular', mix: { block: 'text_color_secondary' } },
+                                        content: [
+                                            {
+                                                block: '',
+                                                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                                            },
+                                             {
+                                                block: '',
+                                                content: 'Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibn.'
+                                            },
+                                            {
+                                                block: '',
+                                                content: 'Suspendisse lobortis lectus vel imperdient ullamcorper.'
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                elem: 'second-img-container',
+                                content:{
+                                    elem: 'second-img',
+                                    tag: 'img',
+                                    attrs: {
+                                        src: 'assets/secondscreen.png',
+                                        alt: 'скриншот'
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                block: 'john',
+                content: {
+                    elem: 'text',
+                    content: [
+                        {
+                            block: 'text_size_header',
+                            mix: { block: 'text_color_accent' },
+                            content: 'Template is awesome'
+                        },
+                        {
+                            elem: 'description',
+                            mix: { block: 'text_size_regular', mix: { block: 'text_color_secondary' } },
+                            content:[
+                                {
+                                    block: '',
+                                    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                                },
+                                {
+                                    block: '',
+                                    content: 'Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibn.'
+                                },
+                                {
+                                    block: '',
+                                    content: 'Suspendisse lobortis lectus vel imperdient ullamcorper.'
+                                }
+                            ]
+                        },
+                        {
+                            elem: 'name',
+                            mix: { block: 'text_size_regular' },
+                            content: [
+                                {
+                                    block: 'text_weight_bold',
+                                    content: 'John Doe'
+                                },
+                                {
+                                    block: 'text_color_secondary',
+                                    content: 'CEO at Crios.com'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    
+    {
+        block: 'footer',
+        tag: 'footer',
+        content: [
+            {
+                block: 'text_color_secondary',
+                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+            },
+            {
+                block: 'text_size_header',
+                content: 'Lorem ipsum dolor sit amet'
+            },
+            {
+                elem: 'action',
+                content: {
+                    tag: 'button',
+                    content: 'SYMO.CO/FREEBIES/'
+                }
+            },
+            {
+                elem: 'img',
+                tag: 'img',
+                attrs: {
+                    src: 'assets/forest.png',
+                    alt: 'лес'
+                }
+            }
+        ]
+    },
+    
+    {
+        block: 'modal',
+        attrs: { id: 'openModal' },
+        content: {
+            block: 'modal-window',
+            content: [
+                {
+                    elem: 'logo',
+                    content: {
+                        tag: 'img',
+                        attrs: { 
+                            src: 'assets/modalicon.png',
+                            alt: 'лого'
+                        }
+                    }
+                },
+                {
+                    elem: 'close',
+                    content: {
+                        elem: 'close-button',
+                        tag: 'a',
+                        attrs: {
+                            href: '#action',
+                            title: 'Close'
+                        },
+                        content: {
+                            elem: 'close-icon',
+                            tag: 'img',
+                            attrs: {
+                                src: 'assets/close.svg',
+                                alt: 'меню'
+                            }
+                        }
+                    }
+                },
+                {
+                    elem: 'content',
+                    content: [
+                        {
+                            block: 'text_size_header',
+                            mix: { block: 'text_color_accent', mix: { block: 'text_weight_bold' }},
+                            content: 'Thanks for downloading our template!'
+                        },
+                        {
+                            block: 'text_size_regular',
+                            mix: { block: 'text_color_secondary' },
+                            content: 'Hope that you will enjoy it well! Check also our site'
+                        },
+                        {
+                            elem: 'go-button',
+                            tag: 'button',
+                            content: 'www.symu.co'
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]);
